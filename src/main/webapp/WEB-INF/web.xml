@@ -1,4 +1,18 @@
-<web-app xmlns='http://xmlns.jcp.org/xml/ns/javaee' version='4.0'>
- <servlet><servlet-name>SlotMachineServlet</servlet-name><servlet-class>com.tedd.slot.SlotMachineServlet</servlet-class></servlet>
- <servlet-mapping><servlet-name>SlotMachineServlet</servlet-name><url-pattern>/spin</url-pattern></servlet-mapping>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>slot</servlet-name>
+        <servlet-class>com.tedd.slot.SlotMachineServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>slot</servlet-name>
+        <url-pattern>/spin</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
 </web-app>
