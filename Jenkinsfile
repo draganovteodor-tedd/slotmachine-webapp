@@ -1,0 +1,1 @@
+pipeline { agent any; stages{ stage('Build'){steps{ sh 'mvn -B package' }} stage('Docker'){steps{ sh 'docker build -t slotmachine .' }} } }

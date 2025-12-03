@@ -1,0 +1,1 @@
+package com.tedd.slot; public class SlotEngine{ public String spin(){ String[] s={"🍒","🍋","⭐"}; return s[(int)(Math.random()*3)]+s[(int)(Math.random()*3)]+s[(int)(Math.random()*3)]; }}

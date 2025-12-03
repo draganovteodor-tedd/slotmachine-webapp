@@ -1,0 +1,1 @@
+<html><body><h1>Slot Machine</h1><button onclick="spin()">SPIN</button><script src="static/slot.js"></script><div id="result"></div></body></html>

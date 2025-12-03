@@ -1,0 +1,1 @@
+FROM tomcat:9-jdk17 COPY target/slotmachine.war /usr/local/tomcat/webapps/

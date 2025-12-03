@@ -1,0 +1,1 @@
+function spin(){fetch('spin').then(r=>r.json()).then(d=>{document.getElementById('result').innerText=d.result});}
